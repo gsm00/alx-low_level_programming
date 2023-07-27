@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -8,15 +7,6 @@
  */
 int main(void)
 {
-    int r;
-
-    r = is_palindrome("level");
-    printf("%d\n", r);
-    r = is_palindrome("redder");
-    printf("%d\n", r);
-    r = is_palindrome("test");
-    printf("%d\n", r);
-    r = is_palindrome("step on no pets");
-    printf("%d\n", r);
+    printf("(A tortoise, having pretty good sense of a hare's nature, challenges one to a race.)\n");
     return (0);
 }
